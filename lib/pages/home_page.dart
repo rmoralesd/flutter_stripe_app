@@ -16,7 +16,12 @@ class HomePage extends StatelessWidget {
         title: const Text('Pagar'),
         actions: [
           IconButton(
-            onPressed: () {},
+            onPressed: () async {
+              // mostrarLoading(context);
+              // await Future.delayed(const Duration(seconds: 1));
+              // Navigator.pop(context);
+              mostrarAlerta(context, 'titulo', 'mensaje');
+            },
             icon: const Icon(Icons.add),
           ),
         ],
