@@ -9,8 +9,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'StripeApp',
-      initialRoute: 'home',
+      title: 'home',
+      initialRoute: 'pago_completo',
       routes: {
         'home': (_) => const HomePage(),
         'pago_completo': (_) => const PagoCompletoPage(),
