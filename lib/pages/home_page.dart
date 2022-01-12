@@ -60,7 +60,7 @@ class HomePage extends StatelessWidget {
                   );
                 }),
           ),
-          Positioned(
+          const Positioned(
             child: TotalPayButton(),
             bottom: 0,
           ),

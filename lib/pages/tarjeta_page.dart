@@ -17,7 +17,7 @@ class TarjetaPage extends StatelessWidget {
         cardHolderName: 'Fernando Herrera');
     return Scaffold(
         appBar: AppBar(
-          title: Text('Pagar'),
+          title: const Text('Pagar'),
         ),
         body: Stack(
           children: [
