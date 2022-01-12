@@ -68,7 +68,7 @@ class _BtnPay extends StatelessWidget {
             color: Colors.white,
           ),
           Text(
-            '  Pay',
+            '  Pagar',
             style: TextStyle(color: Colors.white, fontSize: 22),
           ),
         ],
